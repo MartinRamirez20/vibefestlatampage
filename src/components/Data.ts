@@ -1,4 +1,4 @@
-import type { IconName } from './Icons';
+import type { IconName } from './ui/Icons';
 
 export interface Stop { title: string; text: string }
 export interface Include { icon: IconName; title: string; text: string }

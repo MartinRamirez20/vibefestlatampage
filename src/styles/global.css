@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap');
+
+:root {
+  --sun: #FFC62B;
+  --tangerine: #FF7A1A;
+  --coral: #FF4D6D;
+  --turq: #12C2B0;
+  --sky: #3DB7FF;
+  --ink: #0B2540;
+  --ink-soft: #3C5670;
+  --paper: #FFF8EC;
+  --white: #FFFFFF;
+  --line: rgba(11, 37, 64, 0.14);
+  --font-display: 'Archivo Black', 'Arial Black', sans-serif;
+  --font-body: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --radius: 22px;
+}
+
+* { box-sizing: border-box; }
+body { 
+  margin: 0; 
+  background: var(--paper); 
+  color: var(--ink); 
+  font-family: var(--font-body); 
+  line-height: 1.5; 
+  -webkit-font-smoothing: antialiased; 
+}
+h1, h2, h3, p, ul, ol { margin: 0; padding: 0; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.08; }
+ul, ol { list-style: none; }
+button { font-family: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
